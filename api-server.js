@@ -20,7 +20,7 @@ supertokens.init({
         // learn more about this on https://supertokens.io/docs/thirdpartyemailpassword/appinfo
         appName: "NewsDux",
         apiDomain: "https://newsdux-backend.herokuapp.com/",
-        websiteDomain: "localhost:3000",
+        websiteDomain: "https://newsdux.pages.dev",
         websiteBasePath: "/login"
     },
     recipeList: [
@@ -82,7 +82,7 @@ supertokens.init({
 });
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://newsdux.pages.dev',
     allowedHeaders: ["content-type", ...supertokens.getAllCORSHeaders() ],
     methods: ["GET", "PUT", "POST", "DELETE"],
     credentials: true, 
