@@ -88,6 +88,8 @@ app.use(cors({
     credentials: true, 
 }));
 
+
+
 app.use(supertokens.middleware());
 
 app.use(supertokens.errorHandler())
