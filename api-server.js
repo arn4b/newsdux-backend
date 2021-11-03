@@ -19,7 +19,7 @@ supertokens.init({
     appInfo: {
         // learn more about this on https://supertokens.io/docs/thirdpartyemailpassword/appinfo
         appName: "NewsDux",
-        apiDomain: "localhost:3002",
+        apiDomain: "https://newsdux-backend.herokuapp.com/",
         websiteDomain: "localhost:3000",
         websiteBasePath: "/login"
     },
